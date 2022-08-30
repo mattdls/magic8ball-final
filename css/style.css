@@ -54,6 +54,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
 }
 
 .magicball__response{
@@ -73,17 +74,26 @@ body{
     opacity: 0.2;
 }
 
-.magicball__bg_shadow{
+.magicball__bg__shadow{
     position: absolute;
     width: 175px;
     height: 175px;
     top: 0px;
+    border-radius: 50%;
+    background: #AAA;
+    opacity: 0.2;
 }
 
-.magicball__upper_shadow{
-
+.magicball__upper__shadow{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 5px;
+    background: #191919;
+    opacity: 0.8;
+    border-radius: 50%;
 }
 
-.magicball__lower_shadow{
-
+.magicball__lower__shadow{
+    position: absolute;
 }
